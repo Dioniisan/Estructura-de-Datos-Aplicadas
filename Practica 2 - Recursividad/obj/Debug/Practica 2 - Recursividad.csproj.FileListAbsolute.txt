@@ -1,0 +1,15 @@
+C:\Home\Curso\Recursividad\Practica 2 - Recursividad\bin\Debug\Practica 2 - Recursividad.exe.config
+C:\Home\Curso\Recursividad\Practica 2 - Recursividad\bin\Debug\Practica 2 - Recursividad.exe
+C:\Home\Curso\Recursividad\Practica 2 - Recursividad\bin\Debug\Practica 2 - Recursividad.pdb
+C:\Home\Curso\Recursividad\Practica 2 - Recursividad\obj\Debug\Practica 2 - Recursividad.csprojAssemblyReference.cache
+C:\Home\Curso\Recursividad\Practica 2 - Recursividad\obj\Debug\Practica_2___Recursividad.Factorial.resources
+C:\Home\Curso\Recursividad\Practica 2 - Recursividad\obj\Debug\Practica_2___Recursividad.Fibonacci.resources
+C:\Home\Curso\Recursividad\Practica 2 - Recursividad\obj\Debug\Practica_2___Recursividad.Recursividad.resources
+C:\Home\Curso\Recursividad\Practica 2 - Recursividad\obj\Debug\Practica_2___Recursividad.Hanoi.resources
+C:\Home\Curso\Recursividad\Practica 2 - Recursividad\obj\Debug\Practica_2___Recursividad.MCD.resources
+C:\Home\Curso\Recursividad\Practica 2 - Recursividad\obj\Debug\Practica_2___Recursividad.Monedas.resources
+C:\Home\Curso\Recursividad\Practica 2 - Recursividad\obj\Debug\Practica_2___Recursividad.Properties.Resources.resources
+C:\Home\Curso\Recursividad\Practica 2 - Recursividad\obj\Debug\Practica 2 - Recursividad.csproj.GenerateResource.cache
+C:\Home\Curso\Recursividad\Practica 2 - Recursividad\obj\Debug\Practica 2 - Recursividad.csproj.CoreCompileInputs.cache
+C:\Home\Curso\Recursividad\Practica 2 - Recursividad\obj\Debug\Practica 2 - Recursividad.exe
+C:\Home\Curso\Recursividad\Practica 2 - Recursividad\obj\Debug\Practica 2 - Recursividad.pdb

@@ -1,6 +1,6 @@
 ﻿namespace Practica_2___Recursividad
 {
-    partial class Form1
+    partial class Recursividad
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,38 +28,49 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.CboxOpciones = new System.Windows.Forms.ComboBox();
+            this.PanelEjercicios = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
-            // comboBox1
+            // CboxOpciones
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.CboxOpciones.FormattingEnabled = true;
+            this.CboxOpciones.Items.AddRange(new object[] {
             "Factorial",
             "Fibonacci",
             "MCD",
             "Monedas",
             "Torres de Hanói"});
-            this.comboBox1.Location = new System.Drawing.Point(57, 12);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 0;
+            this.CboxOpciones.Location = new System.Drawing.Point(13, 21);
+            this.CboxOpciones.Name = "CboxOpciones";
+            this.CboxOpciones.Size = new System.Drawing.Size(121, 21);
+            this.CboxOpciones.TabIndex = 0;
+            this.CboxOpciones.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // Form1
+            // PanelEjercicios
+            // 
+            this.PanelEjercicios.Location = new System.Drawing.Point(13, 57);
+            this.PanelEjercicios.Name = "PanelEjercicios";
+            this.PanelEjercicios.Size = new System.Drawing.Size(777, 385);
+            this.PanelEjercicios.TabIndex = 1;
+            // 
+            // Recursividad
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.comboBox1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Controls.Add(this.PanelEjercicios);
+            this.Controls.Add(this.CboxOpciones);
+            this.Name = "Recursividad";
+            this.Text = "Recursividad";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox CboxOpciones;
+        private System.Windows.Forms.Panel PanelEjercicios;
     }
 }
 

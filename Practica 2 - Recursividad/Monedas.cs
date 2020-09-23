@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Practica_2___Recursividad
 {
-    public partial class Form1 : Form
+    public partial class Monedas : Form
     {
-        public Form1()
+        public Monedas()
         {
             InitializeComponent();
         }
