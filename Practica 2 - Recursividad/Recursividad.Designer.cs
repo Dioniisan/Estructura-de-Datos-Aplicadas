@@ -30,6 +30,7 @@
         {
             this.CboxOpciones = new System.Windows.Forms.ComboBox();
             this.PanelEjercicios = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // CboxOpciones
@@ -41,7 +42,7 @@
             "MCD",
             "Monedas",
             "Torres de Hanói"});
-            this.CboxOpciones.Location = new System.Drawing.Point(13, 21);
+            this.CboxOpciones.Location = new System.Drawing.Point(177, 21);
             this.CboxOpciones.Name = "CboxOpciones";
             this.CboxOpciones.Size = new System.Drawing.Size(121, 21);
             this.CboxOpciones.TabIndex = 0;
@@ -54,16 +55,27 @@
             this.PanelEjercicios.Size = new System.Drawing.Size(800, 450);
             this.PanelEjercicios.TabIndex = 1;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(26, 24);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(133, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Por favor, elija una opción:";
+            // 
             // Recursividad
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(826, 517);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.PanelEjercicios);
             this.Controls.Add(this.CboxOpciones);
             this.Name = "Recursividad";
             this.Text = "Recursividad";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -71,6 +83,7 @@
 
         private System.Windows.Forms.ComboBox CboxOpciones;
         private System.Windows.Forms.Panel PanelEjercicios;
+        private System.Windows.Forms.Label label1;
     }
 }
 

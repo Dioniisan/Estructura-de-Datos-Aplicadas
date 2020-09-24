@@ -54,6 +54,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtCantidadI = new System.Windows.Forms.TextBox();
             this.txtCantidadAP = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -271,11 +272,21 @@
             this.txtCantidadAP.Size = new System.Drawing.Size(103, 20);
             this.txtCantidadAP.TabIndex = 26;
             // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(12, 9);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(51, 13);
+            this.label14.TabIndex = 52;
+            this.label14.Text = "Monedas";
+            // 
             // Monedas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label14);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
@@ -339,5 +350,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtCantidadI;
         private System.Windows.Forms.TextBox txtCantidadAP;
+        private System.Windows.Forms.Label label14;
     }
 }
