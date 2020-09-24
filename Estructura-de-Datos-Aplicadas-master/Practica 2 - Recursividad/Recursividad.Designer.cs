@@ -51,14 +51,14 @@
             // 
             this.PanelEjercicios.Location = new System.Drawing.Point(13, 57);
             this.PanelEjercicios.Name = "PanelEjercicios";
-            this.PanelEjercicios.Size = new System.Drawing.Size(800, 450);
+            this.PanelEjercicios.Size = new System.Drawing.Size(777, 385);
             this.PanelEjercicios.TabIndex = 1;
             // 
             // Recursividad
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(826, 517);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.PanelEjercicios);
             this.Controls.Add(this.CboxOpciones);
             this.Name = "Recursividad";
